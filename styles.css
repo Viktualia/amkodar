@@ -1,3 +1,105 @@
+
 body {
-	background-color: hotpink;
+    color: black;
+    line-height: 1.7em;
+		font-family: sans-serif;
+		text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    font-family: sans-serif;
+    line-height: 1.2em;
+    font-size: 3rem;
+    color: #32037A;
+}
+
+h3 {
+    margin: 10px 0;
+    font-weight: 100;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.4em;
+    color: #32037A;
+}
+
+a {
+    color: #32037A;
+}
+
+
+.meny {
+    position: absolute;
+    left: 50%;
+    margin-left: -231px;
+}
+
+.meny a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0.75;
+}
+
+.meny a.logo {
+    opacity: 1;
+}
+
+
+.intro {
+    padding: 80px;
+    padding-top: 140px;
+    margin-bottom: 20px;
+    background-image: url(http://www.tjejerkodar.se/image/lila_pattern.png);
+}
+
+.intro h1, .intro h3 {
+    color: #FFF;
+}
+
+.intro h1 {
+    font-size: 5rem;
+    line-height: 1.2;
+}
+
+.button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 15px 23px;
+    display: inline-block;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #5EFCDB;
+    color: #23173B;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.71429rem;
+    letter-spacing: 0.2em;
+
+}
+
+.course {
+    background-image: url(http://www.tjejerkodar.se/image/bla_pattern.png);
+    background-position: center;
+    width: 340px;
+    height: 340px;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 60px;
+    display: center;
+    align-items: center;
+
+}
+
+.course-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+	    background-color: #FFF;
+	    padding: 8px;
+	    color: #32037A;
 }
